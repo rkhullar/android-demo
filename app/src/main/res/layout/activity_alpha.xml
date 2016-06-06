@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activity.Alpha"
+    android:background="@color/darkgrey">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:id="@+id/alpha_field"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:background="@color/white"
+        android:textSize="20sp"
+        android:lines="1" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alpha_button1"
+        android:id="@+id/alpha_button1"
+        android:layout_below="@+id/alpha_field"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/blue"
+        android:textSize="20sp"
+        android:onClick="work" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alpha_button2"
+        android:id="@+id/alpha_button2"
+        android:layout_below="@id/alpha_button1"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/red"
+        android:textSize="20sp"
+        android:onClick="help" />
+
+</RelativeLayout>
