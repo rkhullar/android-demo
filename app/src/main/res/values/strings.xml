@@ -2,7 +2,9 @@
     <string name="app_name">Demo</string>
     <string name="alpha_label">Demo Alpha</string>
     <string name="beta_label">Demo Beta</string>
-    <string name="alpha_button1">Submit</string>
-    <string name="alpha_button2">Help</string>
+    <string name="gamma_label">Demo Gamma</string>
+    <string name="alpha_button_submit">Submit</string>
+    <string name="alpha_button_gamma">Gamma</string>
+    <string name="alpha_button_help">Help</string>
     <string name="alpha_help">enter some text and press submit</string>
 </resources>

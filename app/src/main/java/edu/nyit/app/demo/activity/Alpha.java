@@ -26,7 +26,6 @@ public class Alpha extends Activity {
 
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
         setContentView(R.layout.activity_alpha);
         context = getApplicationContext();
         toaster = new Toaster(context);
@@ -38,7 +37,7 @@ public class Alpha extends Activity {
         ed_msg = (EditText) findViewById(R.id.alpha_field);
     }
 
-    public void work(View view) {
+    public void work_beta(View view) {
         vibrator.vibrate(200);
         intent = new Intent(this, edu.nyit.app.demo.activity.Beta.class);
         msg = ed_msg.getText().toString();
@@ -46,7 +45,15 @@ public class Alpha extends Activity {
         {
             intent.putExtra(_msg, msg);
             startActivity(intent);
+        } else {
+            help(view);
         }
+    }
+
+    public void work_gamma(View view) {
+        vibrator.vibrate(200);
+        intent = new Intent(this, edu.nyit.app.demo.activity.Gamma.class);
+        startActivity(intent);
     }
 
     public void help(View view) {

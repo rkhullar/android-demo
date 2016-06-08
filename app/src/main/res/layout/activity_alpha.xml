@@ -19,20 +19,31 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/alpha_button1"
+        android:text="@string/alpha_button_submit"
         android:id="@+id/alpha_button1"
         android:layout_below="@+id/alpha_field"
         android:layout_centerHorizontal="true"
         android:textColor="@color/blue"
         android:textSize="20sp"
-        android:onClick="work" />
+        android:onClick="work_beta" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/alpha_button2"
+        android:text="@string/alpha_button_gamma"
         android:id="@+id/alpha_button2"
-        android:layout_below="@id/alpha_button1"
+        android:layout_below="@+id/alpha_button1"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/green"
+        android:textSize="20sp"
+        android:onClick="work_gamma" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alpha_button_help"
+        android:id="@+id/alpha_button3"
+        android:layout_below="@id/alpha_button2"
         android:layout_centerHorizontal="true"
         android:textColor="@color/red"
         android:textSize="20sp"
