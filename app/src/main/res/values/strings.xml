@@ -1,10 +1,15 @@
 <resources>
     <string name="app_name">Demo</string>
+    <string name="app_storage">Example</string>
     <string name="alpha_label">Demo Alpha</string>
     <string name="beta_label">Demo Beta</string>
     <string name="gamma_label">Demo Gamma</string>
+    <string name="delta_label">Demo Delta</string>
     <string name="alpha_button_submit">Submit</string>
     <string name="alpha_button_gamma">Gamma</string>
+    <string name="alpha_button_delta">Delta</string>
     <string name="alpha_button_help">Help</string>
     <string name="alpha_help">enter some text and press submit</string>
+    <string name="delta_button_append">Append</string>
+    <string name="delta_button_close">Close</string>
 </resources>

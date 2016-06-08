@@ -41,11 +41,22 @@
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/alpha_button_help"
+        android:text="@string/alpha_button_delta"
         android:id="@+id/alpha_button3"
         android:layout_below="@id/alpha_button2"
         android:layout_centerHorizontal="true"
         android:textColor="@color/red"
+        android:textSize="20sp"
+        android:onClick="work_delta" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/alpha_button_help"
+        android:id="@+id/alpha_button4"
+        android:layout_below="@id/alpha_button3"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/yellow"
         android:textSize="20sp"
         android:onClick="help" />
 

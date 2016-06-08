@@ -56,6 +56,12 @@ public class Alpha extends Activity {
         startActivity(intent);
     }
 
+    public void work_delta(View view) {
+        vibrator.vibrate(200);
+        intent = new Intent(this, edu.nyit.app.demo.activity.Delta.class);
+        startActivity(intent);
+    }
+
     public void help(View view) {
         vibrator.vibrate(200);
         toaster.toast(getString(R.string.alpha_help));
