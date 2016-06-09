@@ -4,7 +4,6 @@ import android.os.Bundle;
 import android.app.Activity;
 import android.content.Intent;
 import android.widget.TextView;
-import android.content.pm.ActivityInfo;
 
 import edu.nyit.app.demo.R;
 

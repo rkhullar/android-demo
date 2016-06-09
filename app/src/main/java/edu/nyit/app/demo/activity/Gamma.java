@@ -1,13 +1,14 @@
 package edu.nyit.app.demo.activity;
 
-import android.content.Context;
-import android.hardware.SensorManager;
 import android.os.Bundle;
 import android.app.Activity;
+import android.content.Context;
+import android.widget.TextView;
+
 import android.hardware.Sensor;
 import android.hardware.SensorEvent;
+import android.hardware.SensorManager;
 import android.hardware.SensorEventListener;
-import android.widget.TextView;
 
 import edu.nyit.app.demo.R;
 
