@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.content.Context;
 import android.os.Vibrator;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import edu.nyit.app.demo.R;
 import edu.nyit.app.demo.Toaster;
@@ -54,6 +55,14 @@ public class Alpha extends Activity {
         intent = new Intent(this, edu.nyit.app.demo.activity.Gamma.class);
         startActivity(intent);
     }
+
+    /*
+    public void work_toast(View view) {
+        Context ctx = getApplicationContext();
+        Toast toast = Toast.makeText(ctx, "hello", Toast.LENGTH_SHORT);
+        toast.show();
+    }
+    */
 
     public void work_delta(View view) {
         vibrator.vibrate(200);
